@@ -1,0 +1,168 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    padding: 32px 32px;
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 20px 20px;
+    }
+
+    .hero {
+        height: 480px;
+    }
+
+    .hero>.container {
+        height: 100%;
+        position: relative;
+    }
+
+    .hero-list {
+        height: 100%;
+        position: relative;
+    }
+
+    .hero-item {
+        position: relative;
+        width: 100%;
+        height: 480px;
+        background-color: orange;
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-item.first {
+        background-image: url(./img/abstract-background-with-red-lines-2x@320.jpg);
+    }
+
+    .hero-item.second {
+        background-image: url(./img/abstract-background-with-yellow-lines-2x@320.jpg);
+    }
+
+    .hero-item.third {
+       background-image: url(./img/abstract-background-with-orange-lines-2x@320.jpg);
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .container {
+            padding: 32px 32px;
+    }
+
+    .hero {
+            height: 480px;
+        }
+    
+        .hero>.container {
+            height: 100%;
+            position: relative;
+        }
+    
+        .hero-list {
+            height: 100%;
+            position: relative;
+        }
+    .hero-item.first {
+            background-image: url(./img/abstract-background-with-red-lines-2x.jpg);
+        }
+    
+        .hero-item.second {
+            background-image: url(./img/abstract-background-with-yellow-lines-2x.jpg);
+        }
+    
+        .hero-item.third {
+            background-image: url(./img/abstract-background-with-orange-lines-2x.jpg);
+        }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    .container {
+            padding: 32px 32px;
+        }
+    
+        .hero {
+            height: 480px;
+        }
+    
+        .hero>.container {
+            height: 100%;
+            position: relative;
+        }
+    
+        .hero-list {
+            height: 100%;
+            position: relative;
+        }
+    
+        .hero-item.first {
+            background-image: url(./img/abstract-background-with-red-lines-2x.jpg);
+        }
+    
+        .hero-item.second {
+            background-image: url(./img/abstract-background-with-yellow-lines-2x.jpg);
+        }
+    
+        .hero-item.third {
+            background-image: url(./img/abstract-background-with-orange-lines-2x.jpg);
+        }
+    }
+
+         /* html,
+         body {
+             position: relative;
+             height: 100%;
+         }
+    
+         body {
+             background: #eee;
+             font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+             font-size: 14px;
+             color: #000;
+             margin: 0;
+             padding: 0;
+         }
+    
+         .swiper {
+             width: 100%;
+             height: 100%;
+         }
+    
+         .swiper-slide {
+             text-align: center;
+             font-size: 18px;
+             background: #fff;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+    
+         .swiper-slide img {
+             display: block;
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+         } */
+
