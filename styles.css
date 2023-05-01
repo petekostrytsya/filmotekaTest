@@ -70,6 +70,7 @@ header {
     top: 16px;
     background: #FFFFFF;
     border-radius: 100px;
+    border-color: #FFFFFF;
 }
 
 .btn-home {
@@ -104,12 +105,14 @@ header {
         height: 42px;
         background: #FFFFFF;
         border-radius: 100px;
+        border-color: #FFFFFF;
 }
 
 .logo {
     display: flex;
     align-items: center;
     margin-top: 150px;
+    margin-left: 36px;
 }
 
 .logo-title {
