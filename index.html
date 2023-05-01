@@ -15,25 +15,25 @@
 <body>
     <header>
         <div class="container">
-            <button type="button" class="btn-home">HOME</button>
-            <button type="button" class="btn-library">MY LIBRARY</button>
-            <form action="">
-                <input type="text">
-            </form>
+            <div class="nav-site">
+                <label class="form-search">
+                    <input type="text" name="search-film" class="form-search" placeholder="Movie Search" >
+                </label>
+                        
+                <button type="button" class="btn-home">HOME</button>
+                <button type="button" class="btn-library">MY LIBRARY</button>
+            </div>
+            
+            <div class="logo">
+                <svg width="50" height="50">
+                <use href="./img/sprite-filmoteka.svg#icon-film"></use>
+                </svg>
+                <h1 class="logo-title">Filmoteka</h1>
+            </div>  
         </div>
     </header>
     
-    <main>
-        <!-- <section class="hero">
-            <div class="container">
-                <ul class="hero-list">
-                    <li class="hero-item first"></li>
-                    <li class="hero-item second"></li>
-                    <li class="hero-item third"></li>
-                </ul>
-            </div>
-        </section> -->
-        <div class="swiper mySwiper">
+         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="./img/abstract-background-with-red-lines-2x.jpg" alt="" />
@@ -42,23 +42,12 @@
                     <img src="./img/abstract-background-with-yellow-lines-2x.jpg" alt="" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="./img/background-with-yellow-2x.jpg" alt="" />
+                    <img src="./img/background-with-orange-2x.jpg" alt="" />
                 </div>
-                <!-- <a href="" class="site-logo">
-        <img
-          src="./img/icon-film.svg"
-          alt="логотип сайту"
-          width="32"
-          height="32"
-        /> -->
             </div>
         </div>
-
-
-
-
-
-    </main>
+        <main></main>
+    
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
