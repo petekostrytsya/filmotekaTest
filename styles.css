@@ -160,6 +160,7 @@ header {
              display: flex;
              justify-content: center;
              align-items: center;
+            
          }
     
          .swiper-slide img {
@@ -167,5 +168,8 @@ header {
              width: 100%;
              height: 100%;
              object-fit: cover;
+            /* background-image: url(./img/abstract-background-with-yellow-lines-2x.jpg); */
          }
+
+                
 

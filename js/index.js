@@ -10,6 +10,16 @@ const mySwiper = new Swiper('.mySwiper', {
     },
 });
 
+// class MyImage {
+//     constructor(url) {
+//         this.url = url;
+//     }
+// }
+
+// let myImage = new MyImage("./img/abstract-background-with-yellow-lines-2x.jpg");
+
+
+
 // const heroList = document.querySelector('.hero-list');
 // const heroItems = document.querySelectorAll('.hero-item');
 
@@ -58,16 +68,16 @@ const mySwiper = new Swiper('.mySwiper', {
 
 
 
-let heroList = document.querySelector('.hero-list');
-let heroItems = document.querySelectorAll('.hero-item');
-let counter = 0;
+// let heroList = document.querySelector('.hero-list');
+// let heroItems = document.querySelectorAll('.hero-item');
+// let counter = 0;
 
-function slideHero() {
-    heroList.style.transform = 'translateX(' + (-100 * counter) + '%)';
-    counter++;
-    if (counter === heroItems.length) {
-        counter = 0;
-    }
-}
+// function slideHero() {
+//     heroList.style.transform = 'translateX(' + (-100 * counter) + '%)';
+//     counter++;
+//     if (counter === heroItems.length) {
+//         counter = 0;
+//     }
+// }
 
-let interval = setInterval(slideHero, 5000);
+// let interval = setInterval(slideHero, 5000);
