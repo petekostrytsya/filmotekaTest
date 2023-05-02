@@ -163,13 +163,29 @@ header {
             
          }
     
-         .swiper-slide img {
+         /* .swiper-slide img {
              display: block;
              width: 100%;
              height: 100%;
              object-fit: cover;
-            /* background-image: url(./img/abstract-background-with-yellow-lines-2x.jpg); */
-         }
+         } */
+
+                 .swiper-slide {
+                     display: block;
+                     width: 100%;
+                     height: 100%;
+                     object-fit: cover;
+                 }
+
+                 .swiper-slide.first {
+                    background-image: url(./img/abstract-background-with-red-lines-2x.jpg);
+                 }
+                .swiper-slide.second {
+                    background-image: url(./img/abstract-background-with-yellow-lines-2x.jpg);
+                }
+                .swiper-slide.thrid {
+                    background-image: url(./img/background-with-orange-2x.jpg);
+                }
 
                 
 

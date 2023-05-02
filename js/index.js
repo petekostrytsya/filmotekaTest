@@ -1,14 +1,14 @@
 
 
-const mySwiper = new Swiper('.mySwiper', {
-    slidesPerView: 1,
-    loop: true,
-    speed: 5000,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false
-    },
-});
+// const mySwiper = new Swiper('.mySwiper', {
+//     slidesPerView: 1,
+//     loop: true,
+//     speed: 5000,
+//     autoplay: {
+//       delay: 3000,
+//       disableOnInteraction: false
+//     },
+// });
 
 // class MyImage {
 //     constructor(url) {
@@ -39,8 +39,11 @@ const mySwiper = new Swiper('.mySwiper', {
 //         counter += 1;
 //     }
 // }, 3000);
+
+
+
   
-// const body = document.querySelector('.hero-list');
+// const body = document.querySelector('.swiper-wrapper');
 
 // // Зображення для зміни фонового зображення
 // const images = [
@@ -68,16 +71,40 @@ const mySwiper = new Swiper('.mySwiper', {
 
 
 
-// let heroList = document.querySelector('.hero-list');
-// let heroItems = document.querySelectorAll('.hero-item');
+// let imgList = document.querySelector('.swiper-wrapper');
+// let imgItems = document.querySelectorAll('.swiper-slide');
 // let counter = 0;
 
-// function slideHero() {
-//     heroList.style.transform = 'translateX(' + (-100 * counter) + '%)';
-//     counter++;
+// function slideImg() {
+//     imgList.style.transform = 'translateX(' + (-100 * counter) + '%)';
+//     counter += 1;
 //     if (counter === heroItems.length) {
 //         counter = 0;
 //     }
 // }
 
-// let interval = setInterval(slideHero, 5000);
+// let interval = setInterval(slideImg, 5000);
+
+
+const mySwiper = new Swiper('.swiper-container', {
+
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+})
