@@ -19,12 +19,19 @@
         
 <main>
 
-<div class="modal-favorite">
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-btn-icon" width="24px" height="24px">
+                <use href="./images/sprite.svg#icon-x-close"></use>
+            </svg>
+        </button>
+
     <img 
     srcset="./img/Rectangle3x@320 3x"
     src="./img/Rectangle2x@320.jpg" 
     alt="title book"
-    width: "287"
+    width="287"
     height="408"
     />
     
@@ -44,7 +51,8 @@
                     <img src="./img/Book-Dark-logo.png" alt="logo Dark shop" width="38" height="36" />
                 </li>
             </ul>
-                    <button type="submit">add to shopping list</button>
+                    <button type="submit">ADD TO SHOPPING LIST</button>
+    </div>
 </div>
     
 </main>
